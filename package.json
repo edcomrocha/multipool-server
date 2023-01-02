@@ -1,5 +1,5 @@
 {
-  "name": "multipool-server",
+  "name": "@edcomrocha/multipool-server",
   "version": "0.2.10",
   "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
   "main": "./scripts/init.js",
@@ -18,9 +18,7 @@
     "url": "https://github.com/edcomrocha/multipool-server/issues"
   },
   "license": "GPL-2.0",
-  "author": {
-    "name": "Nick Sarris"
-  },
+  "author": "Nick Sarris",
   "jest": {
     "verbose": true,
     "collectCoverage": true,
@@ -43,7 +41,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/edcomrocha/multipool-server.git"
+    "url": "git+https://github.com/edcomrocha/multipool-server.git"
   },
   "dependencies": {
     "apicache": "^1.6.3",
@@ -55,7 +53,7 @@
     "dateformat": "4.6.3",
     "express": "4.17.3",
     "express-rate-limit": "^5.5.1",
-    "multipool-v1-stratum": "https://github.com/edcomrocha/multipool-v1-stratum.git",
+    "multipool-v1-stratum": "git+https://github.com/edcomrocha/multipool-v1-stratum.git",
     "nodemon": "2.0.15",
     "pm2": "^5.2.0",
     "redis": "^3.1.1"
@@ -70,6 +68,5 @@
   },
   "engines": {
     "node": ">=12.16"
-  },
-  "readmeFilename": "README.md"
+  }
 }
