@@ -6,7 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const Algorithms = require('foundation-stratum').algorithms;
+const Algorithms = require('multipool-v1-stratum').algorithms;
 
 ////////////////////////////////////////////////////////////////////////////////
 
