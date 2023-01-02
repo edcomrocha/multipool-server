@@ -1,6 +1,6 @@
 {
   "name": "@edcomrocha/multipool-server",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
   "main": "./scripts/init.js",
   "keywords": [
